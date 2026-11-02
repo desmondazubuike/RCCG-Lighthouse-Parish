@@ -1,37 +1,34 @@
-# RCCG The Lighthouse Parish — Website
+# RCCG Lighthouse Parish — Digital Platform
 
-A modern, responsive website for RCCG The Lighthouse Parish, built with plain HTML, CSS, and JavaScript. No frameworks, no build tools.
+A modern, responsive digital platform for RCCG The Lighthouse Parish, built with HTML, CSS, and JavaScript.
 
-**Live site:** https://desmondazubuike.github.io/RCCG-Lighthouse-Parish/
-
-<!-- Add a screenshot here once you have one. Example: -->
-<!-- ![Site screenshot](images/screenshot.png) -->
+**Live Site:** https://desmondazubuike.github.io/RCCG-Lighthouse-Parish/
 
 ## Overview
 
-A single-page site for a local church, including service times, a current announcement, an interactive Bible verse generator, and a working prayer request form that emails submissions through Formspree.
-
-## Built with
-
-- HTML5
-- CSS3 (custom properties, Grid, Flexbox, responsive design)
-- Vanilla JavaScript (no libraries or frameworks)
-- Formspree (form handling, no custom backend)
-- Google Fonts (Playfair Display, DM Sans)
+A digital platform designed to make church information and engagement more accessible. It brings together service information, announcements, an interactive Bible verse generator, and a prayer request form with email submission.
 
 ## Features
 
-- Responsive layout, tested down to small mobile screens
-- Sticky navigation with a mobile hamburger menu
-- Auto-scrolling announcement ticker
-- An editable, hideable "Special Service" announcement section for current church events
-- Random Bible verse generator
-- Prayer request form with inline validation and real email delivery, no page reload
-- Semantic HTML and accessibility labels throughout (ARIA labels, focus states, alt text)
+- Responsive layout for desktop and mobile devices.
+- Sticky navigation with a mobile hamburger menu.
+- Auto-scrolling announcement ticker.
+- Editable and hideable special service announcements.
+- Interactive Bible verse generator.
+- Prayer request form with inline validation and email submission through Formspree.
+- Semantic HTML and accessibility features.
 
-## Project structure
+## Built With
 
-```
+- HTML5
+- CSS3
+- Vanilla JavaScript
+- Formspree
+- Google Fonts
+
+## Project Structure
+
+```text
 RCCG-Lighthouse-Parish/
 ├── index.html
 ├── CSS/
@@ -43,19 +40,19 @@ RCCG-Lighthouse-Parish/
 └── README.md
 ```
 
-## Running it locally
+## Running Locally
 
-No build step or dependencies required.
+No build tools or additional dependencies are required.
 
-1. Clone or download this repository
-2. Open `index.html` directly in a browser
+1. Clone or download this repository.
+2. Open `index.html` in a web browser.
 
-## Editing the current announcement
+## Updating Church Announcements
 
-The announcement shown in the scrolling ticker and the "Special Service" section is meant to be updated whenever there's a new event. Both spots are marked with `EDIT:` comments in `index.html`.
+The announcement ticker and Special Service section can be updated directly in `index.html`. Look for the `EDIT:` comments marking the relevant sections.
 
-To hide either one when there's nothing current to announce, add the word `hidden` inside its opening tag, and remove it to bring the section back.
+These sections can also be hidden when there are no current announcements.
 
-## Notes
+## Form Handling
 
-This is a static front-end project built as a learning and portfolio piece. The prayer request form submits to Formspree, a third-party form service, since there is no custom backend or database.
+The prayer request form uses Formspree to process and deliver submissions. The project does not currently use a custom backend or database.
