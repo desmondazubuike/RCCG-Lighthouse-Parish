@@ -2,7 +2,7 @@
 
 A modern, responsive website for RCCG The Lighthouse Parish, built with plain HTML, CSS, and JavaScript. No frameworks, no build tools.
 
-**Live site:** https://tochukwuazubuike08-sudo.github.io/RCCG-Lighthouse-Parish/
+**Live site:** https://desmondazubuike.github.io/RCCG-Lighthouse-Parish/
 
 <!-- Add a screenshot here once you have one. Example: -->
 <!-- ![Site screenshot](images/screenshot.png) -->
